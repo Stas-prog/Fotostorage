@@ -9,7 +9,7 @@ const FotoItem = observer(({ onClick, foto }) => {
         <Col md={2} className={"mt-3"} >
             <Card style={{ width: 150, cursor: 'pointer', backgroundColor: '#AFDDFF' }} border={"light"}>
                 <Image style={{ objectFit: 'contain' }} onClick={onClick} width={145} height={130} src={foto.img} alt='tyur' />
-                <Button style={{ width: 2, height: 2, backgroundColor: 'lightpink', border: 'none' }} onClick={removeFoto}></Button>
+                <Button style={{ width: 1, height: 1, backgroundColor: '#9ACBD0', border: 'none' }} onClick={removeFoto}></Button>
             </Card>
         </Col>
     );

@@ -36,6 +36,7 @@ const CreateFoto = observer(({ show, onHide }) => {
             show={show}
             onHide={onHide}
             centered
+            className='tref'
         >
             <Modal.Header closeButton>
                 <Modal.Title id="contained-modal-title-vcenter">
