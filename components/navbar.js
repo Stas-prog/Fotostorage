@@ -16,9 +16,7 @@ const NavBar = observer(() => {
         document.body.className = value;
     }, [value])
 
-    const chengeTheme = () => {
-        value === 'dark' ? setValue('light') : setValue('dark')
-    }
+    const chengeTheme = () => { value === 'dark' ? setValue('light') : setValue('dark')}
 
     return (
         <Navbar bg="info" variant="dark">
